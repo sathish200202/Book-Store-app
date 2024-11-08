@@ -1,6 +1,5 @@
 import express from "express";
 import mongoose from "mongoose";
-import { PORT, mongoURI } from "./config.js";
 import bookRoutes from "./routes/bookRoutes.js";
 import cors from "cors";
 import dotenv from "dotenv";
